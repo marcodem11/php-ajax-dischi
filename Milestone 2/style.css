@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #1E2D3B;
+}
+
+li{
+    list-style: none;
+}
+
+
+header{
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.header-container{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px;
+}
+
+.logo-wrapper{
+    width: fit-content;
+}
+
+.logo{
+    height: 44px;
+    display: block;
+}
+
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.all-albums, .genre-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.album-genre{
+    align-self: flex-start;
+    padding-left: 15%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cards-container{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 3%;
+}
+
+.card-wrapper{
+    width: calc(88% / 5);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 18px;
+}
+
+.poster{
+  margin: 0 auto;
+}
+
+.poster-img{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.album-info {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.author, .year{
+    margin-bottom: 5px;
+}
+
+.author {
+  color: #999999;
+}
+
+.year {
+    color: #999999;
+    font-size: 14px;
+}
